@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f2e9">
+  <meta name="description" content="Découvrez la carte de La Table des Ducs : une cuisine de saison inspirée par la Bourgogne, à Dijon.">
+  <title>La carte — La Table des Ducs, Dijon</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="La Table des Ducs, accueil">
+      <span class="brand-mark" aria-hidden="true">TD</span>
+      <span class="brand-name">La Table <span>des Ducs</span></span>
+    </a>
+    <nav class="desktop-nav" aria-label="Navigation principale">
+      <a href="index.html">La maison</a>
+      <a class="active" href="carte.html">La carte</a>
+      <a class="nav-cta" href="#infos">Nous trouver <span aria-hidden="true">↗</span></a>
+    </nav>
+    <details class="mobile-nav">
+      <summary aria-label="Ouvrir le menu de navigation"><span></span><span></span></summary>
+      <nav aria-label="Navigation mobile">
+        <a href="index.html">La maison</a>
+        <a href="carte.html">La carte</a>
+        <a href="#infos">Nous trouver</a>
+      </nav>
+    </details>
+  </header>
+
+  <main>
+    <section class="menu-hero">
+      <p class="eyebrow"><span class="eyebrow-line"></span> La carte du moment</p>
+      <h1>La saison<br><em>à partager.</em></h1>
+      <p>Une carte courte et vivante, imaginée au fil des arrivages et des envies du marché.</p>
+      <div class="menu-hero-image">
+        <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1500&q=85" alt="Assiette de saison aux légumes frais" fetchpriority="high">
+      </div>
+      <span class="menu-image-note">Cuisine du marché · Produits de saison</span>
+    </section>
+
+    <section class="menu-content section-wrap">
+      <div class="menu-heading">
+        <p class="eyebrow">À table</p>
+        <h2>Les envies<br><em>du moment.</em></h2>
+        <p>La carte évolue selon le marché. Voici quelques idées de la maison.</p>
+      </div>
+      <div class="menu-list">
+        <div class="menu-category">
+          <div class="category-title"><span>01</span><h3>Pour commencer</h3></div>
+          <article class="menu-item">
+            <div><h4>Œuf parfait de la ferme</h4><p>Crème de champignons, noisettes torréfiées, pain grillé</p></div><span class="price">12 €</span>
+          </article>
+          <article class="menu-item">
+            <div><h4>Terrine de campagne maison</h4><p>Pickles du moment, moutarde à l'ancienne</p></div><span class="price">14 €</span>
+          </article>
+          <article class="menu-item">
+            <div><h4>Poireaux juste grillés</h4><p>Vinaigrette tiède, herbes fraîches, vieux comté</p></div><span class="price">13 €</span>
+          </article>
+        </div>
+        <div class="menu-category">
+          <div class="category-title"><span>02</span><h3>Les beaux plats</h3></div>
+          <article class="menu-item">
+            <div><h4>Volaille rôtie de Bourgogne</h4><p>Jus court, légumes du marché, pommes grenailles</p></div><span class="price">26 €</span>
+          </article>
+          <article class="menu-item">
+            <div><h4>Truite de nos rivières</h4><p>Beurre blanc citronné, poireaux fondants, sarrasin</p></div><span class="price">25 €</span>
+          </article>
+          <article class="menu-item">
+            <div><h4>Gnocchis de saison</h4><p>Courge rôtie, sauge, crème de comté</p></div><span class="price">22 €</span>
+          </article>
+        </div>
+        <div class="menu-category">
+          <div class="category-title"><span>03</span><h3>La note sucrée</h3></div>
+          <article class="menu-item">
+            <div><h4>Poire pochée aux épices</h4><p>Crème légère à la vanille, biscuit sablé</p></div><span class="price">10 €</span>
+          </article>
+          <article class="menu-item">
+            <div><h4>Fondant au chocolat noir</h4><p>Cœur coulant, glace au lait fermier</p></div><span class="price">11 €</span>
+          </article>
+          <article class="menu-item">
+            <div><h4>Fromages de Bourgogne</h4><p>Sélection affinée, confiture de saison</p></div><span class="price">13 €</span>
+          </article>
+        </div>
+        <div class="menu-note"><span aria-hidden="true">✳</span> Plats et tarifs indicatifs, à adapter selon le marché et la maison.</div>
+      </div>
+    </section>
+
+    <section class="menu-visit" id="infos">
+      <p class="eyebrow eyebrow-light">La suite, c'est ensemble</p>
+      <h2>On garde une<br>place <em>pour vous.</em></h2>
+      <p>La Table des Ducs · Dijon, Bourgogne<br>Déjeuner & dîner, du mardi au samedi</p>
+      <a class="button button-light" href="index.html#contact">Découvrir la maison <span aria-hidden="true">→</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand brand-footer" href="index.html"><span class="brand-mark" aria-hidden="true">TD</span><span class="brand-name">La Table <span>des Ducs</span></span></a>
+    <span>Une table dijonnaise, tout simplement.</span>
+    <a href="index.html">La maison <span aria-hidden="true">↗</span></a>
+    <span class="copyright">© 2026 La Table des Ducs</span>
+  </footer>
+</body>
+</html>
